@@ -1,0 +1,74 @@
+2026-03-14 18:29:10 | INFO | Step 1: 获取 ticker 映射表...
+2026-03-14 18:29:11 | INFO | 映射表加载完成，共 10435 个 ticker。
+2026-03-14 18:29:37 | INFO | Step 1: 获取 ticker 映射表...
+2026-03-14 18:29:38 | INFO | 映射表加载完成，共 10435 个 ticker。
+2026-03-14 18:29:38 | INFO | 正在处理: AAPL | Apple Inc. | CIK=0000320193
+2026-03-14 18:29:39 | INFO | AAPL 获取到 20 条 recent filings
+2026-03-14 18:29:39 | WARNING | [跳过] 未找到 ticker: FAKE123
+2026-03-14 18:29:39 | INFO | 正在处理: MSFT | MICROSOFT CORP | CIK=0000789019
+2026-03-14 18:29:40 | INFO | MSFT 获取到 20 条 recent filings
+2026-03-14 18:29:40 | INFO | Step 3: 保存 CSV...
+2026-03-14 18:29:40 | INFO | 完成，已保存到: outputs\sec_filings.csv
+2026-03-14 18:29:40 | INFO | 总行数: 40
+2026-03-14 18:29:40 | INFO | 前 5 行预览：
+2026-03-14 18:38:51 | INFO | Step 1: 获取 ticker 映射表...
+2026-03-14 18:38:52 | INFO | 映射表加载完成，共 10435 个 ticker。
+2026-03-14 18:38:52 | INFO | 正在处理: AAPL | Apple Inc. | CIK=0000320193
+2026-03-14 18:38:53 | INFO | AAPL 获取到 20 条 recent filings
+2026-03-14 18:38:54 | WARNING | [跳过] 未找到 ticker: FAKE123
+2026-03-14 18:38:54 | INFO | 正在处理: MSFT | MICROSOFT CORP | CIK=0000789019
+2026-03-14 18:38:56 | INFO | MSFT 获取到 20 条 recent filings
+2026-03-14 18:38:57 | INFO | Step 3: 保存 CSV...
+2026-03-14 18:38:57 | INFO | 完成，已保存到: outputs\sec_filings.csv
+2026-03-14 18:38:57 | INFO | 总行数: 40
+2026-03-14 18:38:57 | INFO | ===== Run Summary =====
+2026-03-14 18:38:57 | INFO | Successful tickers: 2
+2026-03-14 18:38:57 | INFO | Failed tickers: 0
+2026-03-14 18:38:57 | INFO | Skipped tickers: 1
+2026-03-14 18:38:57 | INFO | Total rows exported: 40
+2026-03-14 18:38:57 | INFO | CSV file: outputs\sec_filings.csv
+2026-03-14 18:38:57 | INFO | Log file: logs\app.log
+2026-03-14 18:38:57 | INFO | Successful ticker list: ['AAPL', 'MSFT']
+2026-03-14 18:38:57 | INFO | Skipped ticker list: ['FAKE123']
+2026-03-14 18:38:57 | INFO | 前 5 行预览：
+2026-03-14 18:40:48 | INFO | Step 1: 获取 ticker 映射表...
+2026-03-14 18:41:03 | INFO | Step 1: 获取 ticker 映射表...
+2026-03-14 18:41:04 | INFO | 映射表加载完成，共 10435 个 ticker。
+2026-03-14 18:41:04 | INFO | 正在处理: AAPL | Apple Inc. | CIK=0000320193
+2026-03-14 18:41:05 | INFO | AAPL 获取到 20 条 recent filings
+2026-03-14 18:41:05 | INFO | 正在处理: MSFT | MICROSOFT CORP | CIK=0000789019
+2026-03-14 18:41:06 | INFO | MSFT 获取到 20 条 recent filings
+2026-03-14 18:41:06 | INFO | 正在处理: NVDA | NVIDIA CORP | CIK=0001045810
+2026-03-14 18:41:07 | INFO | NVDA 获取到 20 条 recent filings
+2026-03-14 18:41:07 | INFO | Step 3: 保存 CSV...
+2026-03-14 18:41:07 | INFO | 完成，已保存到: outputs\sec_filings.csv
+2026-03-14 18:41:07 | INFO | 总行数: 60
+2026-03-14 18:41:07 | INFO | ===== Run Summary =====
+2026-03-14 18:41:07 | INFO | Successful tickers: 3
+2026-03-14 18:41:07 | INFO | Failed tickers: 0
+2026-03-14 18:41:07 | INFO | Skipped tickers: 0
+2026-03-14 18:41:07 | INFO | Total rows exported: 60
+2026-03-14 18:41:07 | INFO | CSV file: outputs\sec_filings.csv
+2026-03-14 18:41:07 | INFO | Log file: logs\app.log
+2026-03-14 18:41:07 | INFO | Successful ticker list: ['AAPL', 'MSFT', 'NVDA']
+2026-03-14 18:41:07 | INFO | 前 5 行预览：
+2026-03-14 18:57:27 | INFO | Step 1: 获取 ticker 映射表...
+2026-03-14 18:57:28 | INFO | 映射表加载完成，共 10435 个 ticker。
+2026-03-14 18:57:28 | INFO | 正在处理: AAPL | Apple Inc. | CIK=0000320193
+2026-03-14 18:57:30 | INFO | AAPL 获取到 20 条 recent filings
+2026-03-14 18:57:30 | INFO | 正在处理: MSFT | MICROSOFT CORP | CIK=0000789019
+2026-03-14 18:57:31 | INFO | MSFT 获取到 20 条 recent filings
+2026-03-14 18:57:31 | INFO | 正在处理: NVDA | NVIDIA CORP | CIK=0001045810
+2026-03-14 18:57:33 | INFO | NVDA 获取到 20 条 recent filings
+2026-03-14 18:57:33 | INFO | Step 3: 保存 CSV...
+2026-03-14 18:57:33 | INFO | 完成，已保存到: outputs\sec_filings.csv
+2026-03-14 18:57:33 | INFO | 总行数: 60
+2026-03-14 18:57:33 | INFO | ===== Run Summary =====
+2026-03-14 18:57:33 | INFO | Successful tickers: 3
+2026-03-14 18:57:33 | INFO | Failed tickers: 0
+2026-03-14 18:57:33 | INFO | Skipped tickers: 0
+2026-03-14 18:57:33 | INFO | Total rows exported: 60
+2026-03-14 18:57:33 | INFO | CSV file: outputs\sec_filings.csv
+2026-03-14 18:57:33 | INFO | Log file: logs\app.log
+2026-03-14 18:57:33 | INFO | Successful ticker list: ['AAPL', 'MSFT', 'NVDA']
+2026-03-14 18:57:33 | INFO | 前 5 行预览：
